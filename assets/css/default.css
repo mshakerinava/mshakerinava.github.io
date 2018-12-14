@@ -1,0 +1,126 @@
+a:link,
+a:visited {
+    text-decoration: none;
+    /*color: rgb(109,109,109);*/
+    color: #064c91
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+    color: #0978e7
+}
+
+.content {
+    font-family: Garamond, Georgia, serif;
+    /*content: "";*/
+    /*display: table;*/
+    /*clear: both;*/
+    padding: 0;
+    margin: 0 auto;
+    width: 700px;
+    max-width: 80%;
+    font-size: 14pt;
+}
+
+input[name=search] {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    /*display: block;*/
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 34pt;
+    letter-spacing: 3px;
+    /*line-height: 48px;*/
+    /*font-family: Georgia;*/
+    text-align: center;
+    margin-bottom: 0;
+}
+
+hr {
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+a.post-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-container {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    display: block;
+    max-width: 100%;
+    margin: 1em auto;
+    padding: 0.1em 1em;
+}
+
+.post-container:hover {
+    border-color: (0, 0, 0, 0.3);
+    background-color: rgba(148, 226, 255, 0.1);
+    cursor: pointer;
+}
+
+.post-container>.post-create-date {
+    color: rgba(0, 0, 0, 0.3);
+    /*float: left;*/
+}
+
+.post-container>.post-update-date {
+    color: rgba(0, 0, 0, 0.3);
+    float: right;
+}
+
+.post-container>h2 {
+    color: rgb(23, 74, 156);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.3em;
+}
+
+.post-container>.post-abs {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.post-container img {
+    border-radius: 5px;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    max-width: 256px;
+    max-height: 256px;
+}
+
+.post-container>p {
+    /*float: right;*/
+}
+
+.pixel-img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated;
+}
+
+.pub-authors {
+    color: #5b2503;
+}
+
+.pub-journal {
+    font-style: italic;
+    color: #213C53;
+}

@@ -1,0 +1,6 @@
+.face {
+    float: left;
+    max-width: 8em;
+    margin-right: 1em;
+    border-radius: .1em;
+}
