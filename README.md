@@ -1,2 +1,2 @@
 # mshakerinava.github.io
-Mehran Shakerinava's Acedemic Website
+Mehran Shakerinava's Academic Website
